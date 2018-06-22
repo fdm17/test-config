@@ -1,3 +1,5 @@
 server_port: 7777
 server_name: Accountservice DEV
 zipkin.service.url: http://zipkin:9411
+amqp_server_url: amqp://guest:guest@rabbitmq:5672
+config_event_bus: springCloudBus
