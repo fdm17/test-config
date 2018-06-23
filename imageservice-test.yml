@@ -1,3 +1,6 @@
-server_port: 6767
-server_name: Imageservice TEST
-zipkin.service.url: http://zipkin:9411
+server.port: 7777
+server.name: imageservice
+zipkin.service.url: http://192.168.1.150:9411
+amqp.server.url: amqp://guest:guest@192.168.1.150:5672
+config.event.bus: springCloudBus
+broker.url: amqp://guest:guest@192.168.1.150:5672
