@@ -1,0 +1,29 @@
+server:
+  http:
+    port: 8080
+  grpc:
+    network: tcp
+    port: 50051
+
+zipkin:
+  url: http://localhost:9411/api/v2/spans
+  url-v1: http://localhost:9411/api/v1/spans
+  lightstep.token: ""
+  appdash-addr: ""
+
+consul:
+  host: localhost
+  port: 8500
+  health:
+    point: health
+    check:
+      interval: 10s
+      timeout: 1s
+
+
+database:
+  connectionUri: "database connection uri"
+
+# etcd:
+#   server: http://192.168.1.150:2379
+#   prefix: /services/sample1/

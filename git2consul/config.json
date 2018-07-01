@@ -1,0 +1,18 @@
+{
+    "version": "1.0",
+    "repos": [
+        {
+            "name": "configs",
+            "url": "https://github.com/fdm17/test-config",
+            "branches": [
+                "master"
+            ],
+            "hooks": [
+                {
+                    "type": "polling",
+                    "interval": "1"
+                }
+            ]
+        }
+    ]
+}
