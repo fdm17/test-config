@@ -1,6 +1,0 @@
-server.port: 8080
-server.name: quoteservice
-zipkin.service.url: http://zipkin:9411
-amqp.server.url: amqp://guest:guest@rabbitmq:5672
-config.event.bus: springCloudBus
-broker.url: amqp://guest:guest@rabbitmq:5672
